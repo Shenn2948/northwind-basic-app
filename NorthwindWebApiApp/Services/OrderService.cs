@@ -3,27 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 using NorthwindModel;
 
 using NorthwindWebApiApp.Configuration;
+using NorthwindWebApiApp.Controllers;
 using NorthwindWebApiApp.Models;
 
 namespace NorthwindWebApiApp.Services
 {
     public class OrderService : IOrderService
     {
+        private readonly ILogger<OrdersController> logger;
+
         private readonly NorthwindEntities entities;
 
-        public OrderService(IOptions<NorthwindServiceConfiguration> northwindServiceConfiguration)
+        public OrderService(IOptions<NorthwindServiceConfiguration> northwindServiceConfiguration, ILogger<OrdersController> logger)
         {
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
             var uri = northwindServiceConfiguration == null ? throw new ArgumentNullException(nameof(northwindServiceConfiguration)) : northwindServiceConfiguration.Value.Uri;
             this.entities = new NorthwindEntities(uri);
         }
 
         public async Task<IEnumerable<BriefOrderModel>> GetOrdersAsync()
         {
+            this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
+
             var orderTaskFactory = new TaskFactory<IEnumerable<Order>>();
 
             var orders = await orderTaskFactory.FromAsync(this.entities.Orders.BeginExecute(null, null), iar => this.entities.Orders.EndExecute(iar));
@@ -33,6 +40,8 @@ namespace NorthwindWebApiApp.Services
 
         public async Task<IEnumerable<BriefOrderVersion2Model>> GetExtendedOrdersAsync()
         {
+            this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
+
             var orderTaskFactory = new TaskFactory<IEnumerable<Order>>();
 
             var orders = await orderTaskFactory.FromAsync(this.entities.Orders.BeginExecute(null, null), iar => this.entities.Orders.EndExecute(iar));
@@ -42,6 +51,8 @@ namespace NorthwindWebApiApp.Services
 
         public async Task<FullOrderModel> GetOrderAsync(int orderId)
         {
+            this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
+
             var orderQueryTaskFactory = new TaskFactory<IEnumerable<Orders_Qry>>();
             var query = this.entities.Orders_Qries.AddQueryOption("$filter", $"OrderID eq {orderId}");
 
