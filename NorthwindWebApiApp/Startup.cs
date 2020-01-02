@@ -52,6 +52,12 @@ namespace NorthwindWebApiApp
                     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                     c.IncludeXmlComments(xmlPath);
                 });
+
+            services.AddApiVersioning(
+                options =>
+                {
+                    options.ReportApiVersions = true;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
