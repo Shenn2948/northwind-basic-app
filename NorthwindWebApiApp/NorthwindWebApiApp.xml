@@ -4,5 +4,1725 @@
         <name>NorthwindWebApiApp</name>
     </assembly>
     <members>
+        <member name="T:NorthwindModel.NorthwindEntities">
+            <summary>
+            There are no comments for NorthwindEntities in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.#ctor(System.Uri)">
+            <summary>
+            Initialize a new NorthwindEntities object.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Categories">
+            <summary>
+            There are no comments for Categories in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.CustomerDemographics">
+            <summary>
+            There are no comments for CustomerDemographics in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Customers">
+            <summary>
+            There are no comments for Customers in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Employees">
+            <summary>
+            There are no comments for Employees in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Order_Details">
+            <summary>
+            There are no comments for Order_Details in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Orders">
+            <summary>
+            There are no comments for Orders in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Products">
+            <summary>
+            There are no comments for Products in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Regions">
+            <summary>
+            There are no comments for Regions in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Shippers">
+            <summary>
+            There are no comments for Shippers in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Suppliers">
+            <summary>
+            There are no comments for Suppliers in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Territories">
+            <summary>
+            There are no comments for Territories in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Alphabetical_list_of_products">
+            <summary>
+            There are no comments for Alphabetical_list_of_products in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Category_Sales_for_1997">
+            <summary>
+            There are no comments for Category_Sales_for_1997 in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Current_Product_Lists">
+            <summary>
+            There are no comments for Current_Product_Lists in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Customer_and_Suppliers_by_Cities">
+            <summary>
+            There are no comments for Customer_and_Suppliers_by_Cities in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Invoices">
+            <summary>
+            There are no comments for Invoices in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Order_Details_Extendeds">
+            <summary>
+            There are no comments for Order_Details_Extendeds in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Order_Subtotals">
+            <summary>
+            There are no comments for Order_Subtotals in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Orders_Qries">
+            <summary>
+            There are no comments for Orders_Qries in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Product_Sales_for_1997">
+            <summary>
+            There are no comments for Product_Sales_for_1997 in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Products_Above_Average_Prices">
+            <summary>
+            There are no comments for Products_Above_Average_Prices in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Products_by_Categories">
+            <summary>
+            There are no comments for Products_by_Categories in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Sales_by_Categories">
+            <summary>
+            There are no comments for Sales_by_Categories in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Sales_Totals_by_Amounts">
+            <summary>
+            There are no comments for Sales_Totals_by_Amounts in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Summary_of_Sales_by_Quarters">
+            <summary>
+            There are no comments for Summary_of_Sales_by_Quarters in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.NorthwindEntities.Summary_of_Sales_by_Years">
+            <summary>
+            There are no comments for Summary_of_Sales_by_Years in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCategories(NorthwindModel.Category)">
+            <summary>
+            There are no comments for Categories in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCustomerDemographics(NorthwindModel.CustomerDemographic)">
+            <summary>
+            There are no comments for CustomerDemographics in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCustomers(NorthwindModel.Customer)">
+            <summary>
+            There are no comments for Customers in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToEmployees(NorthwindModel.Employee)">
+            <summary>
+            There are no comments for Employees in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToOrder_Details(NorthwindModel.Order_Detail)">
+            <summary>
+            There are no comments for Order_Details in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToOrders(NorthwindModel.Order)">
+            <summary>
+            There are no comments for Orders in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToProducts(NorthwindModel.Product)">
+            <summary>
+            There are no comments for Products in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToRegions(NorthwindModel.Region)">
+            <summary>
+            There are no comments for Regions in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToShippers(NorthwindModel.Shipper)">
+            <summary>
+            There are no comments for Shippers in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToSuppliers(NorthwindModel.Supplier)">
+            <summary>
+            There are no comments for Suppliers in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToTerritories(NorthwindModel.Territory)">
+            <summary>
+            There are no comments for Territories in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToAlphabetical_list_of_products(NorthwindModel.Alphabetical_list_of_product)">
+            <summary>
+            There are no comments for Alphabetical_list_of_products in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCategory_Sales_for_1997(NorthwindModel.Category_Sales_for_1997)">
+            <summary>
+            There are no comments for Category_Sales_for_1997 in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCurrent_Product_Lists(NorthwindModel.Current_Product_List)">
+            <summary>
+            There are no comments for Current_Product_Lists in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToCustomer_and_Suppliers_by_Cities(NorthwindModel.Customer_and_Suppliers_by_City)">
+            <summary>
+            There are no comments for Customer_and_Suppliers_by_Cities in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToInvoices(NorthwindModel.Invoice)">
+            <summary>
+            There are no comments for Invoices in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToOrder_Details_Extendeds(NorthwindModel.Order_Details_Extended)">
+            <summary>
+            There are no comments for Order_Details_Extendeds in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToOrder_Subtotals(NorthwindModel.Order_Subtotal)">
+            <summary>
+            There are no comments for Order_Subtotals in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToOrders_Qries(NorthwindModel.Orders_Qry)">
+            <summary>
+            There are no comments for Orders_Qries in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToProduct_Sales_for_1997(NorthwindModel.Product_Sales_for_1997)">
+            <summary>
+            There are no comments for Product_Sales_for_1997 in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToProducts_Above_Average_Prices(NorthwindModel.Products_Above_Average_Price)">
+            <summary>
+            There are no comments for Products_Above_Average_Prices in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToProducts_by_Categories(NorthwindModel.Products_by_Category)">
+            <summary>
+            There are no comments for Products_by_Categories in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToSales_by_Categories(NorthwindModel.Sales_by_Category)">
+            <summary>
+            There are no comments for Sales_by_Categories in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToSales_Totals_by_Amounts(NorthwindModel.Sales_Totals_by_Amount)">
+            <summary>
+            There are no comments for Sales_Totals_by_Amounts in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToSummary_of_Sales_by_Quarters(NorthwindModel.Summary_of_Sales_by_Quarter)">
+            <summary>
+            There are no comments for Summary_of_Sales_by_Quarters in the schema.
+            </summary>
+        </member>
+        <member name="M:NorthwindModel.NorthwindEntities.AddToSummary_of_Sales_by_Years(NorthwindModel.Summary_of_Sales_by_Year)">
+            <summary>
+            There are no comments for Summary_of_Sales_by_Years in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Category">
+            <summary>
+            There are no comments for NorthwindModel.Category in the schema.
+            </summary>
+            <KeyProperties>
+            CategoryID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Category.CreateCategory(System.Int32,System.String)">
+            <summary>
+            Create a new Category object.
+            </summary>
+            <param name="categoryID">Initial value of CategoryID.</param>
+            <param name="categoryName">Initial value of CategoryName.</param>
+        </member>
+        <member name="P:NorthwindModel.Category.CategoryID">
+            <summary>
+            There are no comments for Property CategoryID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Category.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Category.Description">
+            <summary>
+            There are no comments for Property Description in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Category.Picture">
+            <summary>
+            There are no comments for Property Picture in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Category.Products">
+            <summary>
+            There are no comments for Products in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.CustomerDemographic">
+            <summary>
+            There are no comments for NorthwindModel.CustomerDemographic in the schema.
+            </summary>
+            <KeyProperties>
+            CustomerTypeID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.CustomerDemographic.CreateCustomerDemographic(System.String)">
+            <summary>
+            Create a new CustomerDemographic object.
+            </summary>
+            <param name="customerTypeID">Initial value of CustomerTypeID.</param>
+        </member>
+        <member name="P:NorthwindModel.CustomerDemographic.CustomerTypeID">
+            <summary>
+            There are no comments for Property CustomerTypeID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.CustomerDemographic.CustomerDesc">
+            <summary>
+            There are no comments for Property CustomerDesc in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.CustomerDemographic.Customers">
+            <summary>
+            There are no comments for Customers in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Customer">
+            <summary>
+            There are no comments for NorthwindModel.Customer in the schema.
+            </summary>
+            <KeyProperties>
+            CustomerID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Customer.CreateCustomer(System.String,System.String)">
+            <summary>
+            Create a new Customer object.
+            </summary>
+            <param name="customerID">Initial value of CustomerID.</param>
+            <param name="companyName">Initial value of CompanyName.</param>
+        </member>
+        <member name="P:NorthwindModel.Customer.CustomerID">
+            <summary>
+            There are no comments for Property CustomerID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.ContactName">
+            <summary>
+            There are no comments for Property ContactName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.ContactTitle">
+            <summary>
+            There are no comments for Property ContactTitle in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Address">
+            <summary>
+            There are no comments for Property Address in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Region">
+            <summary>
+            There are no comments for Property Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.PostalCode">
+            <summary>
+            There are no comments for Property PostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Country">
+            <summary>
+            There are no comments for Property Country in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Phone">
+            <summary>
+            There are no comments for Property Phone in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Fax">
+            <summary>
+            There are no comments for Property Fax in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.Orders">
+            <summary>
+            There are no comments for Orders in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer.CustomerDemographics">
+            <summary>
+            There are no comments for CustomerDemographics in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Employee">
+            <summary>
+            There are no comments for NorthwindModel.Employee in the schema.
+            </summary>
+            <KeyProperties>
+            EmployeeID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Employee.CreateEmployee(System.Int32,System.String,System.String)">
+            <summary>
+            Create a new Employee object.
+            </summary>
+            <param name="employeeID">Initial value of EmployeeID.</param>
+            <param name="lastName">Initial value of LastName.</param>
+            <param name="firstName">Initial value of FirstName.</param>
+        </member>
+        <member name="P:NorthwindModel.Employee.EmployeeID">
+            <summary>
+            There are no comments for Property EmployeeID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.LastName">
+            <summary>
+            There are no comments for Property LastName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.FirstName">
+            <summary>
+            There are no comments for Property FirstName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Title">
+            <summary>
+            There are no comments for Property Title in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.TitleOfCourtesy">
+            <summary>
+            There are no comments for Property TitleOfCourtesy in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.BirthDate">
+            <summary>
+            There are no comments for Property BirthDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.HireDate">
+            <summary>
+            There are no comments for Property HireDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Address">
+            <summary>
+            There are no comments for Property Address in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Region">
+            <summary>
+            There are no comments for Property Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.PostalCode">
+            <summary>
+            There are no comments for Property PostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Country">
+            <summary>
+            There are no comments for Property Country in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.HomePhone">
+            <summary>
+            There are no comments for Property HomePhone in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Extension">
+            <summary>
+            There are no comments for Property Extension in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Photo">
+            <summary>
+            There are no comments for Property Photo in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Notes">
+            <summary>
+            There are no comments for Property Notes in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.ReportsTo">
+            <summary>
+            There are no comments for Property ReportsTo in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.PhotoPath">
+            <summary>
+            There are no comments for Property PhotoPath in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Employees1">
+            <summary>
+            There are no comments for Employees1 in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Employee1">
+            <summary>
+            There are no comments for Employee1 in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Orders">
+            <summary>
+            There are no comments for Orders in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Employee.Territories">
+            <summary>
+            There are no comments for Territories in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Order_Detail">
+            <summary>
+            There are no comments for NorthwindModel.Order_Detail in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            ProductID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Order_Detail.CreateOrder_Detail(System.Int32,System.Int32,System.Decimal,System.Int16,System.Single)">
+            <summary>
+            Create a new Order_Detail object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="unitPrice">Initial value of UnitPrice.</param>
+            <param name="quantity">Initial value of Quantity.</param>
+            <param name="discount">Initial value of Discount.</param>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.Quantity">
+            <summary>
+            There are no comments for Property Quantity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.Discount">
+            <summary>
+            There are no comments for Property Discount in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.Order">
+            <summary>
+            There are no comments for Order in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Detail.Product">
+            <summary>
+            There are no comments for Product in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Order">
+            <summary>
+            There are no comments for NorthwindModel.Order in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Order.CreateOrder(System.Int32)">
+            <summary>
+            Create a new Order object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+        </member>
+        <member name="P:NorthwindModel.Order.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.CustomerID">
+            <summary>
+            There are no comments for Property CustomerID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.EmployeeID">
+            <summary>
+            There are no comments for Property EmployeeID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.OrderDate">
+            <summary>
+            There are no comments for Property OrderDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.RequiredDate">
+            <summary>
+            There are no comments for Property RequiredDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipVia">
+            <summary>
+            There are no comments for Property ShipVia in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.Freight">
+            <summary>
+            There are no comments for Property Freight in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipName">
+            <summary>
+            There are no comments for Property ShipName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipAddress">
+            <summary>
+            There are no comments for Property ShipAddress in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipCity">
+            <summary>
+            There are no comments for Property ShipCity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipRegion">
+            <summary>
+            There are no comments for Property ShipRegion in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipPostalCode">
+            <summary>
+            There are no comments for Property ShipPostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.ShipCountry">
+            <summary>
+            There are no comments for Property ShipCountry in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.Customer">
+            <summary>
+            There are no comments for Customer in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.Employee">
+            <summary>
+            There are no comments for Employee in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.Order_Details">
+            <summary>
+            There are no comments for Order_Details in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order.Shipper">
+            <summary>
+            There are no comments for Shipper in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Product">
+            <summary>
+            There are no comments for NorthwindModel.Product in the schema.
+            </summary>
+            <KeyProperties>
+            ProductID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Product.CreateProduct(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Create a new Product object.
+            </summary>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="productName">Initial value of ProductName.</param>
+            <param name="discontinued">Initial value of Discontinued.</param>
+        </member>
+        <member name="P:NorthwindModel.Product.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.SupplierID">
+            <summary>
+            There are no comments for Property SupplierID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.CategoryID">
+            <summary>
+            There are no comments for Property CategoryID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.QuantityPerUnit">
+            <summary>
+            There are no comments for Property QuantityPerUnit in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.UnitsInStock">
+            <summary>
+            There are no comments for Property UnitsInStock in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.UnitsOnOrder">
+            <summary>
+            There are no comments for Property UnitsOnOrder in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.ReorderLevel">
+            <summary>
+            There are no comments for Property ReorderLevel in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.Discontinued">
+            <summary>
+            There are no comments for Property Discontinued in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.Category">
+            <summary>
+            There are no comments for Category in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.Order_Details">
+            <summary>
+            There are no comments for Order_Details in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product.Supplier">
+            <summary>
+            There are no comments for Supplier in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Region">
+            <summary>
+            There are no comments for NorthwindModel.Region in the schema.
+            </summary>
+            <KeyProperties>
+            RegionID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Region.CreateRegion(System.Int32,System.String)">
+            <summary>
+            Create a new Region object.
+            </summary>
+            <param name="regionID">Initial value of RegionID.</param>
+            <param name="regionDescription">Initial value of RegionDescription.</param>
+        </member>
+        <member name="P:NorthwindModel.Region.RegionID">
+            <summary>
+            There are no comments for Property RegionID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Region.RegionDescription">
+            <summary>
+            There are no comments for Property RegionDescription in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Region.Territories">
+            <summary>
+            There are no comments for Territories in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Shipper">
+            <summary>
+            There are no comments for NorthwindModel.Shipper in the schema.
+            </summary>
+            <KeyProperties>
+            ShipperID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Shipper.CreateShipper(System.Int32,System.String)">
+            <summary>
+            Create a new Shipper object.
+            </summary>
+            <param name="shipperID">Initial value of ShipperID.</param>
+            <param name="companyName">Initial value of CompanyName.</param>
+        </member>
+        <member name="P:NorthwindModel.Shipper.ShipperID">
+            <summary>
+            There are no comments for Property ShipperID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Shipper.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Shipper.Phone">
+            <summary>
+            There are no comments for Property Phone in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Shipper.Orders">
+            <summary>
+            There are no comments for Orders in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Supplier">
+            <summary>
+            There are no comments for NorthwindModel.Supplier in the schema.
+            </summary>
+            <KeyProperties>
+            SupplierID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Supplier.CreateSupplier(System.Int32,System.String)">
+            <summary>
+            Create a new Supplier object.
+            </summary>
+            <param name="supplierID">Initial value of SupplierID.</param>
+            <param name="companyName">Initial value of CompanyName.</param>
+        </member>
+        <member name="P:NorthwindModel.Supplier.SupplierID">
+            <summary>
+            There are no comments for Property SupplierID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.ContactName">
+            <summary>
+            There are no comments for Property ContactName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.ContactTitle">
+            <summary>
+            There are no comments for Property ContactTitle in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Address">
+            <summary>
+            There are no comments for Property Address in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Region">
+            <summary>
+            There are no comments for Property Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.PostalCode">
+            <summary>
+            There are no comments for Property PostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Country">
+            <summary>
+            There are no comments for Property Country in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Phone">
+            <summary>
+            There are no comments for Property Phone in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Fax">
+            <summary>
+            There are no comments for Property Fax in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.HomePage">
+            <summary>
+            There are no comments for Property HomePage in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Supplier.Products">
+            <summary>
+            There are no comments for Products in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Territory">
+            <summary>
+            There are no comments for NorthwindModel.Territory in the schema.
+            </summary>
+            <KeyProperties>
+            TerritoryID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Territory.CreateTerritory(System.String,System.String,System.Int32)">
+            <summary>
+            Create a new Territory object.
+            </summary>
+            <param name="territoryID">Initial value of TerritoryID.</param>
+            <param name="territoryDescription">Initial value of TerritoryDescription.</param>
+            <param name="regionID">Initial value of RegionID.</param>
+        </member>
+        <member name="P:NorthwindModel.Territory.TerritoryID">
+            <summary>
+            There are no comments for Property TerritoryID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Territory.TerritoryDescription">
+            <summary>
+            There are no comments for Property TerritoryDescription in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Territory.RegionID">
+            <summary>
+            There are no comments for Property RegionID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Territory.Region">
+            <summary>
+            There are no comments for Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Territory.Employees">
+            <summary>
+            There are no comments for Employees in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Alphabetical_list_of_product">
+            <summary>
+            There are no comments for NorthwindModel.Alphabetical_list_of_product in the schema.
+            </summary>
+            <KeyProperties>
+            ProductID
+            ProductName
+            Discontinued
+            CategoryName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Alphabetical_list_of_product.CreateAlphabetical_list_of_product(System.Int32,System.String,System.Boolean,System.String)">
+            <summary>
+            Create a new Alphabetical_list_of_product object.
+            </summary>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="productName">Initial value of ProductName.</param>
+            <param name="discontinued">Initial value of Discontinued.</param>
+            <param name="categoryName">Initial value of CategoryName.</param>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.SupplierID">
+            <summary>
+            There are no comments for Property SupplierID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.CategoryID">
+            <summary>
+            There are no comments for Property CategoryID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.QuantityPerUnit">
+            <summary>
+            There are no comments for Property QuantityPerUnit in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.UnitsInStock">
+            <summary>
+            There are no comments for Property UnitsInStock in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.UnitsOnOrder">
+            <summary>
+            There are no comments for Property UnitsOnOrder in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.ReorderLevel">
+            <summary>
+            There are no comments for Property ReorderLevel in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.Discontinued">
+            <summary>
+            There are no comments for Property Discontinued in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Alphabetical_list_of_product.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Category_Sales_for_1997">
+            <summary>
+            There are no comments for NorthwindModel.Category_Sales_for_1997 in the schema.
+            </summary>
+            <KeyProperties>
+            CategoryName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Category_Sales_for_1997.CreateCategory_Sales_for_1997(System.String)">
+            <summary>
+            Create a new Category_Sales_for_1997 object.
+            </summary>
+            <param name="categoryName">Initial value of CategoryName.</param>
+        </member>
+        <member name="P:NorthwindModel.Category_Sales_for_1997.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Category_Sales_for_1997.CategorySales">
+            <summary>
+            There are no comments for Property CategorySales in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Current_Product_List">
+            <summary>
+            There are no comments for NorthwindModel.Current_Product_List in the schema.
+            </summary>
+            <KeyProperties>
+            ProductID
+            ProductName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Current_Product_List.CreateCurrent_Product_List(System.Int32,System.String)">
+            <summary>
+            Create a new Current_Product_List object.
+            </summary>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="productName">Initial value of ProductName.</param>
+        </member>
+        <member name="P:NorthwindModel.Current_Product_List.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Current_Product_List.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Customer_and_Suppliers_by_City">
+            <summary>
+            There are no comments for NorthwindModel.Customer_and_Suppliers_by_City in the schema.
+            </summary>
+            <KeyProperties>
+            CompanyName
+            Relationship
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Customer_and_Suppliers_by_City.CreateCustomer_and_Suppliers_by_City(System.String,System.String)">
+            <summary>
+            Create a new Customer_and_Suppliers_by_City object.
+            </summary>
+            <param name="companyName">Initial value of CompanyName.</param>
+            <param name="relationship">Initial value of Relationship.</param>
+        </member>
+        <member name="P:NorthwindModel.Customer_and_Suppliers_by_City.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer_and_Suppliers_by_City.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer_and_Suppliers_by_City.ContactName">
+            <summary>
+            There are no comments for Property ContactName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Customer_and_Suppliers_by_City.Relationship">
+            <summary>
+            There are no comments for Property Relationship in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Invoice">
+            <summary>
+            There are no comments for NorthwindModel.Invoice in the schema.
+            </summary>
+            <KeyProperties>
+            CustomerName
+            Salesperson
+            OrderID
+            ShipperName
+            ProductID
+            ProductName
+            UnitPrice
+            Quantity
+            Discount
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Invoice.CreateInvoice(System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Decimal,System.Int16,System.Single)">
+            <summary>
+            Create a new Invoice object.
+            </summary>
+            <param name="customerName">Initial value of CustomerName.</param>
+            <param name="salesperson">Initial value of Salesperson.</param>
+            <param name="orderID">Initial value of OrderID.</param>
+            <param name="shipperName">Initial value of ShipperName.</param>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="productName">Initial value of ProductName.</param>
+            <param name="unitPrice">Initial value of UnitPrice.</param>
+            <param name="quantity">Initial value of Quantity.</param>
+            <param name="discount">Initial value of Discount.</param>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipName">
+            <summary>
+            There are no comments for Property ShipName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipAddress">
+            <summary>
+            There are no comments for Property ShipAddress in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipCity">
+            <summary>
+            There are no comments for Property ShipCity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipRegion">
+            <summary>
+            There are no comments for Property ShipRegion in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipPostalCode">
+            <summary>
+            There are no comments for Property ShipPostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipCountry">
+            <summary>
+            There are no comments for Property ShipCountry in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.CustomerID">
+            <summary>
+            There are no comments for Property CustomerID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.CustomerName">
+            <summary>
+            There are no comments for Property CustomerName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Address">
+            <summary>
+            There are no comments for Property Address in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Region">
+            <summary>
+            There are no comments for Property Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.PostalCode">
+            <summary>
+            There are no comments for Property PostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Country">
+            <summary>
+            There are no comments for Property Country in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Salesperson">
+            <summary>
+            There are no comments for Property Salesperson in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.OrderDate">
+            <summary>
+            There are no comments for Property OrderDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.RequiredDate">
+            <summary>
+            There are no comments for Property RequiredDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ShipperName">
+            <summary>
+            There are no comments for Property ShipperName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Quantity">
+            <summary>
+            There are no comments for Property Quantity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Discount">
+            <summary>
+            There are no comments for Property Discount in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.ExtendedPrice">
+            <summary>
+            There are no comments for Property ExtendedPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Invoice.Freight">
+            <summary>
+            There are no comments for Property Freight in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Order_Details_Extended">
+            <summary>
+            There are no comments for NorthwindModel.Order_Details_Extended in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            ProductID
+            ProductName
+            UnitPrice
+            Quantity
+            Discount
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Order_Details_Extended.CreateOrder_Details_Extended(System.Int32,System.Int32,System.String,System.Decimal,System.Int16,System.Single)">
+            <summary>
+            Create a new Order_Details_Extended object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+            <param name="productID">Initial value of ProductID.</param>
+            <param name="productName">Initial value of ProductName.</param>
+            <param name="unitPrice">Initial value of UnitPrice.</param>
+            <param name="quantity">Initial value of Quantity.</param>
+            <param name="discount">Initial value of Discount.</param>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.ProductID">
+            <summary>
+            There are no comments for Property ProductID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.Quantity">
+            <summary>
+            There are no comments for Property Quantity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.Discount">
+            <summary>
+            There are no comments for Property Discount in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Details_Extended.ExtendedPrice">
+            <summary>
+            There are no comments for Property ExtendedPrice in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Order_Subtotal">
+            <summary>
+            There are no comments for NorthwindModel.Order_Subtotal in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Order_Subtotal.CreateOrder_Subtotal(System.Int32)">
+            <summary>
+            Create a new Order_Subtotal object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+        </member>
+        <member name="P:NorthwindModel.Order_Subtotal.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Order_Subtotal.Subtotal">
+            <summary>
+            There are no comments for Property Subtotal in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Orders_Qry">
+            <summary>
+            There are no comments for NorthwindModel.Orders_Qry in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            CompanyName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Orders_Qry.CreateOrders_Qry(System.Int32,System.String)">
+            <summary>
+            Create a new Orders_Qry object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+            <param name="companyName">Initial value of CompanyName.</param>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.CustomerID">
+            <summary>
+            There are no comments for Property CustomerID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.EmployeeID">
+            <summary>
+            There are no comments for Property EmployeeID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.OrderDate">
+            <summary>
+            There are no comments for Property OrderDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.RequiredDate">
+            <summary>
+            There are no comments for Property RequiredDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipVia">
+            <summary>
+            There are no comments for Property ShipVia in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.Freight">
+            <summary>
+            There are no comments for Property Freight in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipName">
+            <summary>
+            There are no comments for Property ShipName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipAddress">
+            <summary>
+            There are no comments for Property ShipAddress in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipCity">
+            <summary>
+            There are no comments for Property ShipCity in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipRegion">
+            <summary>
+            There are no comments for Property ShipRegion in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipPostalCode">
+            <summary>
+            There are no comments for Property ShipPostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.ShipCountry">
+            <summary>
+            There are no comments for Property ShipCountry in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.Address">
+            <summary>
+            There are no comments for Property Address in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.City">
+            <summary>
+            There are no comments for Property City in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.Region">
+            <summary>
+            There are no comments for Property Region in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.PostalCode">
+            <summary>
+            There are no comments for Property PostalCode in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Orders_Qry.Country">
+            <summary>
+            There are no comments for Property Country in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Product_Sales_for_1997">
+            <summary>
+            There are no comments for NorthwindModel.Product_Sales_for_1997 in the schema.
+            </summary>
+            <KeyProperties>
+            CategoryName
+            ProductName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Product_Sales_for_1997.CreateProduct_Sales_for_1997(System.String,System.String)">
+            <summary>
+            Create a new Product_Sales_for_1997 object.
+            </summary>
+            <param name="categoryName">Initial value of CategoryName.</param>
+            <param name="productName">Initial value of ProductName.</param>
+        </member>
+        <member name="P:NorthwindModel.Product_Sales_for_1997.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product_Sales_for_1997.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Product_Sales_for_1997.ProductSales">
+            <summary>
+            There are no comments for Property ProductSales in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Products_Above_Average_Price">
+            <summary>
+            There are no comments for NorthwindModel.Products_Above_Average_Price in the schema.
+            </summary>
+            <KeyProperties>
+            ProductName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Products_Above_Average_Price.CreateProducts_Above_Average_Price(System.String)">
+            <summary>
+            Create a new Products_Above_Average_Price object.
+            </summary>
+            <param name="productName">Initial value of ProductName.</param>
+        </member>
+        <member name="P:NorthwindModel.Products_Above_Average_Price.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Products_Above_Average_Price.UnitPrice">
+            <summary>
+            There are no comments for Property UnitPrice in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Products_by_Category">
+            <summary>
+            There are no comments for NorthwindModel.Products_by_Category in the schema.
+            </summary>
+            <KeyProperties>
+            CategoryName
+            ProductName
+            Discontinued
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Products_by_Category.CreateProducts_by_Category(System.String,System.String,System.Boolean)">
+            <summary>
+            Create a new Products_by_Category object.
+            </summary>
+            <param name="categoryName">Initial value of CategoryName.</param>
+            <param name="productName">Initial value of ProductName.</param>
+            <param name="discontinued">Initial value of Discontinued.</param>
+        </member>
+        <member name="P:NorthwindModel.Products_by_Category.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Products_by_Category.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Products_by_Category.QuantityPerUnit">
+            <summary>
+            There are no comments for Property QuantityPerUnit in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Products_by_Category.UnitsInStock">
+            <summary>
+            There are no comments for Property UnitsInStock in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Products_by_Category.Discontinued">
+            <summary>
+            There are no comments for Property Discontinued in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Sales_by_Category">
+            <summary>
+            There are no comments for NorthwindModel.Sales_by_Category in the schema.
+            </summary>
+            <KeyProperties>
+            CategoryID
+            CategoryName
+            ProductName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Sales_by_Category.CreateSales_by_Category(System.Int32,System.String,System.String)">
+            <summary>
+            Create a new Sales_by_Category object.
+            </summary>
+            <param name="categoryID">Initial value of CategoryID.</param>
+            <param name="categoryName">Initial value of CategoryName.</param>
+            <param name="productName">Initial value of ProductName.</param>
+        </member>
+        <member name="P:NorthwindModel.Sales_by_Category.CategoryID">
+            <summary>
+            There are no comments for Property CategoryID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_by_Category.CategoryName">
+            <summary>
+            There are no comments for Property CategoryName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_by_Category.ProductName">
+            <summary>
+            There are no comments for Property ProductName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_by_Category.ProductSales">
+            <summary>
+            There are no comments for Property ProductSales in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Sales_Totals_by_Amount">
+            <summary>
+            There are no comments for NorthwindModel.Sales_Totals_by_Amount in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            CompanyName
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Sales_Totals_by_Amount.CreateSales_Totals_by_Amount(System.Int32,System.String)">
+            <summary>
+            Create a new Sales_Totals_by_Amount object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+            <param name="companyName">Initial value of CompanyName.</param>
+        </member>
+        <member name="P:NorthwindModel.Sales_Totals_by_Amount.SaleAmount">
+            <summary>
+            There are no comments for Property SaleAmount in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_Totals_by_Amount.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_Totals_by_Amount.CompanyName">
+            <summary>
+            There are no comments for Property CompanyName in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Sales_Totals_by_Amount.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Summary_of_Sales_by_Quarter">
+            <summary>
+            There are no comments for NorthwindModel.Summary_of_Sales_by_Quarter in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Summary_of_Sales_by_Quarter.CreateSummary_of_Sales_by_Quarter(System.Int32)">
+            <summary>
+            Create a new Summary_of_Sales_by_Quarter object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Quarter.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Quarter.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Quarter.Subtotal">
+            <summary>
+            There are no comments for Property Subtotal in the schema.
+            </summary>
+        </member>
+        <member name="T:NorthwindModel.Summary_of_Sales_by_Year">
+            <summary>
+            There are no comments for NorthwindModel.Summary_of_Sales_by_Year in the schema.
+            </summary>
+            <KeyProperties>
+            OrderID
+            </KeyProperties>
+        </member>
+        <member name="M:NorthwindModel.Summary_of_Sales_by_Year.CreateSummary_of_Sales_by_Year(System.Int32)">
+            <summary>
+            Create a new Summary_of_Sales_by_Year object.
+            </summary>
+            <param name="orderID">Initial value of OrderID.</param>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Year.ShippedDate">
+            <summary>
+            There are no comments for Property ShippedDate in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Year.OrderID">
+            <summary>
+            There are no comments for Property OrderID in the schema.
+            </summary>
+        </member>
+        <member name="P:NorthwindModel.Summary_of_Sales_by_Year.Subtotal">
+            <summary>
+            There are no comments for Property Subtotal in the schema.
+            </summary>
+        </member>
     </members>
 </doc>
