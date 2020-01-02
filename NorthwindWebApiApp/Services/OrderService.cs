@@ -10,7 +10,6 @@ using NorthwindModel;
 
 using NorthwindWebApiApp.Configuration;
 using NorthwindWebApiApp.Controllers;
-using NorthwindWebApiApp.Models;
 
 namespace NorthwindWebApiApp.Services
 {
@@ -27,7 +26,7 @@ namespace NorthwindWebApiApp.Services
             this.entities = new NorthwindEntities(uri);
         }
 
-        public async Task<IEnumerable<BriefOrderModel>> GetOrdersAsync()
+        public async Task<IEnumerable<BriefOrderDescription>> GetOrdersAsync()
         {
             this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
 
@@ -35,10 +34,10 @@ namespace NorthwindWebApiApp.Services
 
             var orders = await orderTaskFactory.FromAsync(this.entities.Orders.BeginExecute(null, null), iar => this.entities.Orders.EndExecute(iar));
 
-            return orders.Select(o => new BriefOrderModel { OrderId = o.OrderID, OrderDate = o.OrderDate, RequiredDate = o.RequiredDate, }).ToArray();
+            return orders.Select(o => new BriefOrderDescription { OrderId = o.OrderID, OrderDate = o.OrderDate, RequiredDate = o.RequiredDate, }).ToArray();
         }
 
-        public async Task<IEnumerable<BriefOrderVersion2Model>> GetExtendedOrdersAsync()
+        public async Task<IEnumerable<BriefOrderVersion2Description>> GetExtendedOrdersAsync()
         {
             this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
 
@@ -46,10 +45,10 @@ namespace NorthwindWebApiApp.Services
 
             var orders = await orderTaskFactory.FromAsync(this.entities.Orders.BeginExecute(null, null), iar => this.entities.Orders.EndExecute(iar));
 
-            return orders.Select(o => new BriefOrderVersion2Model { CustomerId = o.CustomerID, EmployeeId = o.EmployeeID }).ToArray();
+            return orders.Select(o => new BriefOrderVersion2Description { CustomerId = o.CustomerID, EmployeeId = o.EmployeeID }).ToArray();
         }
 
-        public async Task<FullOrderModel> GetOrderAsync(int orderId)
+        public async Task<FullOrderDescription> GetOrderAsync(int orderId)
         {
             this.logger.LogDebug($"Getting data from ${this.entities.BaseUri.AbsoluteUri}.");
 
@@ -65,8 +64,8 @@ namespace NorthwindWebApiApp.Services
                 return null;
             }
 
-            return new FullOrderModel
-                   {
+            return new FullOrderDescription
+            {
                        OrderId = order.OrderID,
                        CustomerId = order.CustomerID,
                        EmployeeId = order.EmployeeID,

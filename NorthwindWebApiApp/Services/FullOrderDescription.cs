@@ -1,6 +1,6 @@
-﻿namespace NorthwindWebApiApp.Models
+﻿namespace NorthwindWebApiApp.Services
 {
-    public class FullOrderModel : BriefOrderModel
+    public class FullOrderDescription : BriefOrderDescription
     {
         public string CustomerId { get; set; }
 
