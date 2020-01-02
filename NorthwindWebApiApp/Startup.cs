@@ -2,6 +2,8 @@
 using System.IO;
 using System.Reflection;
 
+using AutoMapper;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
 using NorthwindWebApiApp.Configuration;
+using NorthwindWebApiApp.MappingProfiles;
 using NorthwindWebApiApp.Services;
 
 namespace NorthwindWebApiApp
@@ -58,6 +61,16 @@ namespace NorthwindWebApiApp
                 {
                     options.ReportApiVersions = true;
                 });
+
+            // Auto Mapper Configurations
+            var mappingConfig = new MapperConfiguration(
+                mc =>
+                {
+                    mc.AddProfile(new OrderServiceMappingProfile());
+                });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,11 +98,12 @@ namespace NorthwindWebApiApp
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                c.RoutePrefix = string.Empty;
-            });
+            app.UseSwaggerUI(
+                c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                    c.RoutePrefix = string.Empty;
+                });
         }
 
 #pragma warning restore CA1822
